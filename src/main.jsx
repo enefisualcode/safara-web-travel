@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { ArrowRight, Menu, X } from 'lucide-react';
 import './styles.css';
 
-const A = '/assets/';
+const A = `${import.meta.env.BASE_URL}assets/`;
 const whatsapp = 'https://wa.me/6281190901440?text=Assalamualaikum%2C%20saya%20ingin%20berkonsultasi%20tentang%20paket%20umrah%20Safara.';
 
 const packages = [
